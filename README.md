@@ -1,199 +1,267 @@
- Loan Default Analysis Dashboard – Power BI
+# 📊 Loan Default Analysis Dashboard | Power BI
 
- 
-📌 Project Overview
 
-The Loan Default Analysis Dashboard is an interactive Power BI solution designed to analyze loan performance, applicant demographics, and financial risk metrics. The dashboard enables financial institutions to identify default patterns, understand borrower characteristics, and monitor lending performance through dynamic visualizations and KPIs.
 
-The report is divided into three analytical pages, each focusing on a different aspect of the lending business:
+## 📌 Project Overview
 
-Loan Default Overview
-Applicant Demographics & Financial Profile
-Financial Risk Metrics
-🎯 Business Problem
+The **Loan Default Analysis Dashboard** is an interactive **Power BI** solution designed to help financial institutions analyze loan performance, borrower demographics, and financial risk. The dashboard provides actionable insights into loan defaults, applicant characteristics, and lending trends through interactive visualizations and DAX-powered KPIs.
 
-Financial institutions process thousands of loan applications every year. Understanding:
+The report is divided into **three analytical pages**:
 
-Which customers are more likely to default
-Which loan categories contribute the highest lending amount
-How employment, income, education, and credit score affect default risk
+- 📈 Loan Default Overview
+- 👥 Applicant Demographics & Financial Profile
+- 💰 Financial Risk Metrics
 
-is essential for minimizing financial losses and improving lending decisions.
+---
 
-This dashboard helps stakeholders make data-driven decisions by providing interactive insights into loan performance and borrower behavior.
+## 🎯 Business Problem
 
-Dashboard Pages
+Financial institutions issue thousands of loans every year. Understanding borrower behavior and identifying factors that contribute to loan defaults are essential for reducing financial risk.
 
-1️⃣ Loan Default Overview
+This dashboard helps answer key business questions such as:
+
+- Which loan purposes receive the highest funding?
+- Which employment types have the highest default rates?
+- How do income and credit score influence loan amounts?
+- Which borrower demographics are associated with higher lending?
+- How have loan amounts and defaults changed over time?
+
+---
+
+# 🛠 Tools & Technologies
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Excel / CSV Dataset
+
+---
+
+# 📊 Dashboard 1: Loan Default Overview
+
+## Objective
+
+Provides a high-level overview of loan performance and default trends.
+
+### Visualizations
+
+- Loan Amount by Purpose
+- Average Income by Employment Type
+- Default Rate (%) by Employment Type
+- Average Loan Amount by Age Group
+- Default Rate Trend by Year
+
+### Business Insights
+
+- Compare loan distribution across different purposes.
+- Identify employment categories with higher default rates.
+- Analyze applicant income across employment types.
+- Understand yearly default trends.
+- Compare average loan amount by age group.
+
+### Dashboard Preview
 
 <img width="1918" height="990" alt="image" src="https://github.com/user-attachments/assets/bedfada8-767a-40aa-abbb-9b1cd7feeac9" />
 
-Purpose
+---
 
-Provides an executive summary of loan performance and default trends.
+# 👥 Dashboard 2: Applicant Demographics & Financial Profile
 
-Visualizations
-Loan Amount by Purpose
-Average Income by Employment Type
-Default Rate (%) by Employment Type
-Average Loan Amount by Age Group
-Default Rate Trend by Year
-Key Insights
-Compare loan distribution across different purposes.
-Identify employment categories with higher default rates.
-Analyze average applicant income.
-Monitor yearly default trends.
-Compare loan amounts across different age groups.
-2️⃣ Applicant Demographics & Financial Profile
+## Objective
+
+Analyze applicant characteristics and their relationship with loan amount and credit quality.
+
+### Visualizations
+
+- Median Loan Amount by Credit Score Bins
+- Average High Credit Loan Amount by Age Group & Marital Status
+- Total Loan by Credit Score
+- Total Loan by Mortgage & Dependents
+- Number of Loans by Education Type
+
+### Business Insights
+
+- Understand the relationship between credit score and loan amount.
+- Compare loan distribution across age groups.
+- Analyze marital status and education level.
+- Evaluate the impact of mortgage ownership and dependents.
+
+### Dashboard Preview
 
 <img width="1919" height="983" alt="image" src="https://github.com/user-attachments/assets/e811bd14-11f3-4ae5-b3b9-ae84f2d92ba5" />
 
-Purpose
+---
 
-Analyzes applicant characteristics and their relationship with loan amount.
+# 📉 Dashboard 3: Financial Risk Metrics
 
-Visualizations
-Median Loan Amount by Credit Score Bins
-Average High Credit Loan Amount by Age Group & Marital Status
-Total Loan by Credit Score Bins
-Total Loan by Mortgage & Dependents
-Number of Loans by Education Type
-Key Insights
-Study how credit score affects loan approval amount.
-Compare borrowers across age groups.
-Understand the impact of marital status.
-Analyze education-wise loan distribution.
-Evaluate mortgage ownership and dependent information.
+## Objective
 
-3️⃣ Financial Risk Metrics
+Track financial performance using advanced DAX calculations and time intelligence metrics.
+
+### Visualizations
+
+- Year-over-Year (YOY) Loan Amount Change
+- Year-over-Year (YOY) Default Loan Change
+- Year-to-Date (YTD) Loan Amount by Credit Score & Marital Status
+- Decomposition Tree (Income Bucket → Employment Type)
+
+### Business Insights
+
+- Monitor annual growth in loan amount.
+- Track changes in default loans.
+- Analyze YTD lending performance.
+- Drill down loan distribution by income and employment.
+
+### Dashboard Preview
 
 <img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/46aae929-c80f-4571-8332-c089ad8375bd" />
 
-Purpose
+---
 
-Measures lending performance over time using advanced financial KPIs.
+# 📌 Key Performance Indicators (KPIs)
 
-Visualizations
-Year-over-Year (YOY) Loan Amount Change
-Year-over-Year Default Loan Change
-YTD Loan Amount by Credit Score & Marital Status
-Income Bucket vs Employment Type (Decomposition Tree)
-Key Insights
-Track yearly growth in loan amounts.
-Monitor yearly changes in defaulted loans.
-Analyze YTD lending performance.
-Drill down loan distribution by income and employment.
-📊 KPIs Covered
-Total Loan Amount
-Average Loan Amount
-Default Rate (%)
-Average Applicant Income
-Number of Loans
-Median Loan Amount
-YOY Loan Growth
-YOY Default Growth
-YTD Loan Amount
-Loan Distribution by Credit Score
-Loan Distribution by Education
-Loan Distribution by Employment Type
-📈 Dashboard Features
-Interactive Filters
-Cross Filtering
-Drill-down Analysis
-Dynamic Measures using DAX
-Responsive Dashboard Layout
-Year-over-Year Analysis
-Year-to-Date (YTD) Analysis
-Decomposition Tree Analysis
-🛠 Tools & Technologies
-Technology	Usage
-Power BI Desktop	Dashboard Development
-Power Query	Data Cleaning & Transformation
-DAX	Measures & KPIs
-Data Modeling	Relationship Management
-Excel/CSV	Data Source
-📚 DAX Concepts Used
-CALCULATE()
-SUM()
-AVERAGE()
-MEDIAN()
-DIVIDE()
-FILTER()
-YEAR()
-YTD Calculations
-YOY Calculations
-Context Transition
-Time Intelligence Functions
-📂 Dashboard Structure
-Loan Default Analysis
-│
-├── Loan Default Overview
-│     ├── Loan Amount by Purpose
-│     ├── Default Rate by Employment
-│     ├── Income Analysis
-│     └── Default Trend
-│
-├── Applicant Demographics
-│     ├── Credit Score Analysis
-│     ├── Education Analysis
-│     ├── Marital Status
-│     └── Mortgage Analysis
-│
-└── Financial Risk Metrics
-      ├── YOY Loan Growth
-      ├── YOY Default Growth
-      ├── YTD Loan Amount
-      └── Decomposition Tree
-📸 Dashboard Preview
-Loan Default Overview
+- Total Loan Amount
+- Average Loan Amount
+- Median Loan Amount
+- Default Rate (%)
+- Average Applicant Income
+- Number of Loans
+- Year-over-Year Loan Growth
+- Year-over-Year Default Growth
+- Year-to-Date Loan Amount
+- Loan Distribution by Purpose
+- Loan Distribution by Credit Score
+- Loan Distribution by Employment Type
 
-Add Screenshot Here
+---
 
-Applicant Demographics & Financial Profile
+# 📚 DAX Concepts Used
 
-Add Screenshot Here
+- CALCULATE()
+- FILTER()
+- SUM()
+- AVERAGE()
+- MEDIAN()
+- DIVIDE()
+- YEAR()
+- Time Intelligence Functions
+- YTD Calculations
+- YOY Calculations
+- Context Transition
 
-Financial Risk Metrics
+---
 
-Add Screenshot Here
+# 🗂 Data Model
 
-💡 Business Value
+The dashboard was built using a relational data model consisting of loan, borrower, and financial attributes.
 
-This dashboard enables financial analysts and lending teams to:
+Main fields include:
 
-Identify high-risk borrower segments.
-Monitor loan portfolio performance.
-Improve credit risk assessment.
-Analyze borrower demographics.
-Support strategic lending decisions.
-Reduce potential loan defaults through data-driven insights.
-🚀 Future Enhancements
-Predictive Loan Default Model using Machine Learning
-Customer Risk Scoring
-Real-time Data Refresh
-Geographic Loan Analysis
-Loan Recovery Tracking
-AI-powered Key Influencers Visual
-📁 Repository Structure
-Loan-Default-Analysis-Dashboard/
+- Loan Amount
+- Loan Purpose
+- Credit Score
+- Credit Score Bins
+- Income
+- Income Bucket
+- Employment Type
+- Education
+- Marital Status
+- Age Group
+- Mortgage Status
+- Number of Dependents
+- Loan Default
+- Year
+
+---
+
+# ✨ Dashboard Features
+
+- Interactive Filters
+- Cross Filtering
+- Drill-down Analysis
+- Dynamic DAX Measures
+- Time Intelligence Analysis
+- Professional Dashboard Design
+- Responsive Visual Layout
+- Financial Risk Analysis
+- Decomposition Tree
+- Year-over-Year Analysis
+
+---
+
+# 💼 Business Value
+
+This dashboard enables financial analysts and decision-makers to:
+
+- Identify high-risk borrower segments.
+- Monitor lending performance.
+- Improve credit risk assessment.
+- Analyze customer demographics.
+- Support strategic lending decisions.
+- Reduce potential loan defaults.
+- Improve portfolio monitoring.
+
+---
+
+# 🚀 Future Improvements
+
+- Machine Learning Loan Default Prediction
+- Customer Risk Score
+- Real-time Data Refresh
+- Geographic Loan Analysis
+- AI Key Influencers Visual
+- Forecasting Loan Defaults
+
+---
+
+# 📁 Repository Structure
+
+```
+Loan-Default-Analysis-Dashboard
 │
 ├── Dashboard.pbix
-├── Dataset/
+├── Dataset
 │   └── Loan_Default.csv
-├── Images/
+├── Images
 │   ├── Loan_Default_Overview.png
 │   ├── Applicant_Demographics.png
 │   └── Financial_Risk_Metrics.png
 ├── README.md
 └── LICENSE
-⭐ Skills Demonstrated
-Power BI Dashboard Development
-Data Modeling
-Power Query (ETL)
-DAX Calculations
-Time Intelligence
-Financial Analytics
-Risk Analysis
-Data Visualization
-Business Intelligence
-Interactive Reporting
+```
+
+---
+
+# ⭐ Skills Demonstrated
+
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Cleaning
+- ETL
+- Financial Analytics
+- Risk Analysis
+- Business Intelligence
+- Dashboard Design
+- Interactive Reporting
+- Time Intelligence
+- Data Visualization
+
+---
+
+
+
+### Skills
+
+- Power BI
+- SQL
+- Python
+- Excel
+- DAX
+- Power Query
+
+
+
+
