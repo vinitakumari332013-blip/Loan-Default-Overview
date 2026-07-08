@@ -1,4 +1,6 @@
  Loan Default Analysis Dashboard – Power BI
+
+ 
 📌 Project Overview
 
 The Loan Default Analysis Dashboard is an interactive Power BI solution designed to analyze loan performance, applicant demographics, and financial risk metrics. The dashboard enables financial institutions to identify default patterns, understand borrower characteristics, and monitor lending performance through dynamic visualizations and KPIs.
@@ -21,6 +23,7 @@ is essential for minimizing financial losses and improving lending decisions.
 This dashboard helps stakeholders make data-driven decisions by providing interactive insights into loan performance and borrower behavior.
 
 Dashboard Pages
+
 1️⃣ Loan Default Overview
 
 <img width="1918" height="990" alt="image" src="https://github.com/user-attachments/assets/bedfada8-767a-40aa-abbb-9b1cd7feeac9" />
@@ -61,6 +64,7 @@ Compare borrowers across age groups.
 Understand the impact of marital status.
 Analyze education-wise loan distribution.
 Evaluate mortgage ownership and dependent information.
+
 3️⃣ Financial Risk Metrics
 
 <img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/46aae929-c80f-4571-8332-c089ad8375bd" />
